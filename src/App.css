@@ -1,0 +1,25 @@
+.container {
+  width: 90vw;
+  margin-inline: auto;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.forms {
+  margin-top: 20px;
+  -webkit-box-shadow: 2px 2px 5px 2px #b3b1b1;
+  box-shadow: 2px 2px 5px 2px #b3b1b1;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: var(--primary-color);
+}
+
+.forms h1 {
+  text-align: center;
+}

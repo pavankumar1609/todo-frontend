@@ -1,0 +1,15 @@
+.pagination {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.disable {
+  color: #b3b6b8;
+  pointer-events: none;
+}

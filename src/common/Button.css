@@ -1,0 +1,28 @@
+:root {
+  --btn-color: #2f5bad;
+  --btn-hover-color: #7392cb;
+  --btn-shade-color: #405e94;
+}
+
+.btn {
+  padding: 5px 10px 5px 10px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: var(--btn-color);
+  color: white;
+  -webkit-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  margin-block: 20px;
+}
+
+.btn:focus {
+  outline: 4px solid var(--btn-hover-color);
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  background-color: var(--btn-shade-color);
+}
